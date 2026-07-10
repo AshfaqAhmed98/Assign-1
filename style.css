@@ -357,17 +357,35 @@ header {
     
    
 }
-.footer-right {
-    
-    display: flex;
-    gap: 20px;
-}
+
 .footer-right a {
     color: white;
     text-decoration: none;
     
     
 }
+
+.footer-separator {
+    border: 0;
+    height: 1px;
+    background: #2c2c2c;
+    margin: 40px 0;
+}
+.footer-bottom {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer icons styling */
+.footer-icons { display:flex; gap:12px; align-items:center; justify-content:flex-end; }
+.footer-icons .social-link { display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:8px; background:rgba(59,130,246,0.08); color:#60a5fa; border:1px solid rgba(96,165,250,0.06); transition:transform .12s, background .12s; }
+.footer-icons .social-link i { font-size:18px; }
+.footer-icons .social-link:hover { transform:translateY(-3px); background:rgba(96,165,250,0.12); }
 
 /* Schedule styles */
 .schedule {
@@ -431,7 +449,22 @@ header {
     .session-card { flex-direction: row; gap: 12px; }
     .session-time { min-width: 56px; padding: 8px 10px; }
 }
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
 
+.footer-social a {
+    color: #fff;
+    font-size: 22px;
+    transition: 0.3s;
+}
 
+.footer-social a:hover {
+    color: #4f7dfd;
+}
 
+.footer a{
+    text-decoration: none;
+}
 
