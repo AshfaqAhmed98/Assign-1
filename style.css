@@ -83,3 +83,42 @@ header {
 .plan-btn:hover {
     background-color: #0052cc;
 }
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./assets/banner.jpg') center/cover no-repeat;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content h1 em {
+    font-style: italic;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 14px 40px;
+    font-size: 1rem;
+    margin-top: 150px;
+}
