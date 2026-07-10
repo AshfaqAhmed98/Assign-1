@@ -1,0 +1,1 @@
+Design an event schedule section for DevConf 2026 using a clean timeline or card-based layout. Show the event time, session title, speaker name, and room location for each session. Use subtle borders, rounded corners, and blue highlights while maintaining the website's dark theme. Make the schedule easy to scan before footer
